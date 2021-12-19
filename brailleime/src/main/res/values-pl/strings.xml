@@ -4,6 +4,8 @@
   <string name="switch_to_screen_away_announcement">Tryb Ekran odsunięty</string>
   <string name="switch_to_tabletop_announcement">Tryb na stole. Połóż urządzenie tak, by port ładowania był po lewej stronie. Aby zmienić pozycję kropki, przytrzymaj ekran 6 palcami.</string>
   <string name="braille_ime_hidden_announcement">Ukryto klawiaturę brajlowską</string>
+    <string name="number_announcement">Liczba</string>
+  <string name="capitalize_announcement">Wielkie</string>
   <string name="bring_ime_settings_page">Inne klawiatury nie są uruchomione, otwórz ustawienia klawiatury</string>
   <string name="reminder_announcement">Przesuń 3 palcami w górę, by wyświetlić więcej opcji</string>
   <string name="switched_to_contracted_announcement">Przełączono na brajla skrótowego</string>
@@ -34,6 +36,8 @@
   <string name="code_user_facing_name_ueb">Unified English Braille</string>
   <string name="code_user_facing_name_es">Hiszpański</string>
   <string name="code_user_facing_name_ar">arabski</string>
+  <string name="code_user_facing_name_fr">francuski</string>
+  <string name="code_user_facing_name_pl">polski</string>
   <string name="title_pref_accumulate_presses">Uwzględniaj wszystkie naciśnięte punkty</string>
   <string name="summary_pref_accumulate_presses">Każdy naciśnięty punkt jest uwzględniany, nawet jeśli przestajesz go naciskać przed pozostałymi</string>
   <string name="title_pref_reverse_dots">Odwróć punkty</string>
@@ -48,7 +52,7 @@
   <string name="context_menu_switch_contracted_status_selection">Przełącz na brajla: %s</string>
   <string name="contracted">skrótowego</string>
   <string name="uncontracted">integralnego</string>
-  <string name="context_menu_see_all_gestures_selection">Review all gestures</string>
+  <string name="context_menu_see_all_gestures_selection">Przejrzyj wszystkie gesty</string>
   <string name="context_menu_tutorial_selection">Otwórz samouczek</string>
   <string name="context_menu_tutorial_finish">Zakończ samouczek</string>
   <string name="context_menu_settings_selection">Ustawienia</string>
@@ -109,7 +113,7 @@
   <string name="result_swipe_down_2_fingers">UKRYJ KLAWIATURĘ</string>
   <string name="result_swipe_down_3_fingers">NASTĘPNA KLAWIATURA</string>
   <string name="rotate_orientation_announcement">Od teraz nie możesz korzystać ze standardowych gestów TalkBack. Gdy używasz klawiatury brajlowskiej, usługa TalkBack jest niedostępna.\n\n%1$s</string>
-  <string name="rotate_orientation_inactive_announcement">Najpierw odwróć telefon ekranem od siebie.\n\nNastępnie obróć telefon i ustaw go poziomo. Trzymaj telefon za krótsze krawędzie. Prawą ręką trzymaj część, w której znajduje się port USB. Połóż 3 środkowe palce na ekranie, a kciukiem i małym placem podpieraj telefon.\n\nGdy wszystko będzie gotowe, kliknij ekran dwukrotnie, by przejść dalej.\n\nAby zamknąć klawiaturę brajlowską, przesuń 3 palcami w dół. Spowoduje to przełączenie na pierwotną klawiaturę.</string>
+  <string name="rotate_orientation_inactive_announcement">Najpierw odwróć telefon ekranem od siebie.\n\nNastępnie obróć telefon i ustaw go poziomo. Trzymaj telefon za krótsze krawędzie. Prawą ręką trzymaj część, w której znajduje się port USB. Połóż 3 środkowe palce na ekranie, a kciukiem i małym palcem podpieraj telefon.\n\nGdy wszystko będzie gotowe, kliknij ekran dwukrotnie, by przejść dalej.\n\nAby zamknąć klawiaturę brajlowską, przesuń 3 palcami w dół. Spowoduje to przełączenie na pierwotną klawiaturę.</string>
   <string name="rotate_orientation_continue_announcement">Telefon jest ustawiony pionowo. Aby przejść dalej, obróć go w poziomie, tak by długa krawędź znalazła się na dole. Następnie odwróć ekran od siebie. Gdy wszystko będzie gotowe, kliknij ekran dwukrotnie, by przejść dalej.</string>
   <string name="type_letter_a_announcement_left_index_finger">lewy palec wskazujący</string>
   <string name="type_letter_a_announcement_right_index_finger">prawy palec wskazujący</string>

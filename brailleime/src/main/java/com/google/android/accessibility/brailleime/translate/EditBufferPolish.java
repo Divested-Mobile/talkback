@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 Google Inc.
+ * Copyright 2020 Google Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,20 +23,18 @@ import com.google.android.accessibility.brailleime.R;
 import com.google.android.accessibility.brailleime.TalkBackForBrailleImeInternal;
 import java.util.Optional;
 
-/** An EditBuffer for French Braille Grade 1. */
-public class EditBufferFrench extends EditBufferCommon {
+/** An EditBuffer for Polish Braille. */
+public class EditBufferPolish extends EditBufferCommon {
 
-  public EditBufferFrench(
-      Context context, Translator frenchTranslator, TalkBackForBrailleImeInternal talkBack) {
-    super(context, frenchTranslator, talkBack);
+  public EditBufferPolish(
+      Context context, Translator polishTranslator, TalkBackForBrailleImeInternal talkBack) {
+    super(context, polishTranslator, talkBack);
   }
 
   @Override
   protected Optional<String> getAppendBrailleTextToSpeak(
       Resources resources, BrailleCharacter brailleCharacter) {
-    if (brailleCharacter.equals(BrailleTranslateUtilsFrench.CAPITALIZE)) {
-      return Optional.of(resources.getString(R.string.capitalize_announcement));
-    } else if (brailleCharacter.equals(BrailleTranslateUtilsFrench.NUMERIC)) {
+    if (brailleCharacter.equals(BrailleTranslateUtils.NUMERIC)) {
       return Optional.of(resources.getString(R.string.number_announcement));
     }
     return Optional.empty();
